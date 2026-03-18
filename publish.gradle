@@ -15,3 +15,12 @@ apiValidation {
 			"com.jakewharton.mosaic.animation.InternalAnimationApi"
 	]
 }
+
+publishing {
+	repositories {
+		maven {
+			name = "gradleup"
+			url = "gcs://gradleup/m2"
+		}
+	}
+}
